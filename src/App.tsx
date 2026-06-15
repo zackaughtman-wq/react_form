@@ -2,7 +2,7 @@ import { ReferralForm } from "./components/ReferralForm";
 
 function App() {
   return (
-    <ReferralForm/>
+    <ReferralForm />
   )
 }
 

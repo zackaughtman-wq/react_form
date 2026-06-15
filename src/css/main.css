@@ -1,0 +1,28 @@
+@layer theme, layout, utilities;
+
+/* Grouped by layer, listed alphabetically */
+@import "./fonts.css" layer(theme);
+@import "./reset.css" layer(theme);
+
+@import "./layout.css" layer(layout);
+
+@import "./card.css" layer(utilities);
+@import "./forms.css" layer(utilities);
+@import "./typography.css" layer(utilities);
+
+/* Variables */
+:root {  
+    /* Colors */
+    --accent-100: #ed780f;
+    --accent-200: #9a4e0a;
+    
+    --primary-100: #cce7ff;
+    --primary-200: #0667ba;
+    --primary-300: #144881;   
+    --primary-400: #0f3d70;   
+    --primary-500: #032955;
+
+    /* fonts */
+    --ff-base: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
